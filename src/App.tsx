@@ -31,7 +31,7 @@ function App() {
                 md={{ span: 12, order: 2 }}
                 sm={{ span: 24, order: 1 }}
                 xs={{ span: 24, order: 1 }}>
-                <Card>
+                <Card style={{marginBottom: 15}}>
                   <Meta
                     avatar={<Avatar
                       src="https://media.istockphoto.com/id/1399611777/fr/photo/portrait-dun-petit-gar%C3%A7on-souriant-aux-cheveux-bruns-regardant-lappareil-photo-enfant.jpg?s=612x612&w=0&k=20&c=NJmYuSARzGrGI51qnGIPQMN-P3harj72W05d9M9czf8="

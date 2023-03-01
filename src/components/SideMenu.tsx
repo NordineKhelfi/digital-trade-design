@@ -56,7 +56,6 @@ const SideMenu = () => {
         defaultSelectedKeys={['1']}
         defaultOpenKeys={['sub1']}
         mode="inline"
-        // theme="light"
         inlineCollapsed={collapsed}
         items={items}
       />

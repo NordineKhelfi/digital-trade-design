@@ -7,8 +7,9 @@ const ScrollSection = () => <Col
   xs={{ span: 24, order: 2 }}
   style={{
     overflow: 'scroll',
-    maxHeight: window.innerWidth < 575 ?
-      'calc(100vh - 170px)' :
+    paddingRight: 15,
+    maxHeight: window.innerWidth < 768 ?
+      'calc(100vh - 185px)' :
       'calc(100vh - 73px)'
   }}>
   <List
